@@ -1,0 +1,88 @@
+import type { Event } from '../types/event';
+
+export const events: Event[] = [
+  {
+    id: '1',
+    name: 'Annual Greggs Pastry Appreciation Night',
+    date: '2026-02-20T19:00:00Z',
+    location: 'The Bigg Market, Newcastle',
+    description: 'Celebrate the finest baked goods in the North East with fellow developers. Sausage rolls and steak bakes provided.',
+  },
+  {
+    id: '2',
+    name: 'Toon Army TypeScript Hackathon',
+    date: '2026-02-18T10:00:00Z',
+    location: 'St James\' Park, Newcastle',
+    description: 'Build apps as fast as the Toon attack! Code in the Gallowgate End, debug in the Leazes.',
+  },
+  {
+    id: '3',
+    name: 'Why Aye Man: React on the Quayside',
+    date: '2026-03-05T18:30:00Z',
+    location: 'The Quayside, Newcastle',
+    description: 'Learn React hooks while enjoying views of the Tyne. Props not optional, state guaranteed.',
+  },
+  {
+    id: '4',
+    name: 'Geordie Shore Coding Bootcamp',
+    date: '2026-03-15T14:00:00Z',
+    location: 'Jesmond, Newcastle',
+    description: 'Get mortal good at JavaScript. No radgies allowed, just sound developers.',
+  },
+  {
+    id: '5',
+    name: 'Brown Ale & Algorithms',
+    date: '2026-03-22T20:00:00Z',
+    location: 'The Crown Posada, Newcastle',
+    description: 'Solve Big O problems over pints of the finest Newcastle Brown. Binary trees never tasted so good.',
+  },
+  {
+    id: '6',
+    name: 'Midnight Stottie Cake Design Sprint',
+    date: '2026-04-01T23:00:00Z',
+    location: 'Central Station, Newcastle',
+    description: 'Late night design session. Stotties provided for sustenance. Last Metro home guaranteed.',
+  },
+  {
+    id: '7',
+    name: 'Pet Lambs & Performance Testing',
+    date: '2026-04-10T11:00:00Z',
+    location: 'Town Moor, Newcastle',
+    description: 'Optimize your apps, pet lamb. Load testing with a proper Geordie touch.',
+  },
+  {
+    id: '8',
+    name: 'Howay the Lads: DevOps Derby',
+    date: '2026-04-18T15:00:00Z',
+    location: 'Leazes Park, Newcastle',
+    description: 'CI/CD pipeline competition. Deploy faster than Shearer scored. Winners get a bottle of Dog.',
+  },
+  {
+    id: '9',
+    name: 'Canny Good Code Review Sessions',
+    date: '2026-05-05T09:00:00Z',
+    location: 'Grey Street, Newcastle',
+    description: 'Constructive feedback in the classiest street in England. Your code will be mint after this.',
+  },
+  {
+    id: '10',
+    name: 'Tyne Bridge Component Library Launch',
+    date: '2026-05-20T17:00:00Z',
+    location: 'Gateshead Quayside, Newcastle',
+    description: 'Unveiling our new UI library, as iconic as the bridge itself. Open source, like our hearts.',
+  },
+  {
+    id: '11',
+    name: 'Geordies Who Code Meetup',
+    date: '2026-02-25T18:00:00Z',
+    location: 'Ouseburn Valley, Newcastle',
+    description: 'Monthly gathering of local developers. Bring your laptop, leave your inhibitions in Sunderland.',
+  },
+  {
+    id: '12',
+    name: 'Wor Flags: CSS Animation Workshop',
+    date: '2026-06-01T14:00:00Z',
+    location: 'Ouseburn, Newcastle',
+    description: 'Make your websites move like the flags at St James. Keyframes and black & white stripes.',
+  },
+];
