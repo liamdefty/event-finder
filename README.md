@@ -9,6 +9,14 @@ This project showcases how to build a scalable React application with proper sep
 - Schema-driven form generation
 - Modern tooling and best practices
 
+## Requirements
+
+To run this project locally, you need:
+
+- **Node.js** 18+ (for React 19 support)
+- **npm**
+- Modern browser with ES6+ support
+
 ## Tech Stack
 
 - **React 18** with TypeScript
@@ -57,10 +65,42 @@ npm run dev
 - Zod validation schemas
 - Schema-driven form configuration
 
-Potential future features:
-- API integration (replace mock data in EventService)
-- Additional filters (date range, categories)
-- Event creation with real backend
-- Pagination
-- Unit and integration tests with Vitest
-- Delete events
+## Production/Future Considerations
+
+Key improvements for production deployment:
+
+### Backend & API
+- Replace mock EventService with real API endpoints
+- Implement authentication and authorization
+- Add proper error handling with retry logic
+- Replace localStorage with database persistence
+
+### Testing & Quality
+- Unit tests (Vitest), component tests (React Testing Library), E2E tests (Playwright)
+- CI/CD pipeline with automated testing
+- ESLint and Prettier configuration
+
+### Performance
+- Code splitting, lazy loading, and bundle optimization
+- Virtual scrolling for large lists
+- CDN for static assets and image optimization
+
+### Theming & Styling
+- Design system with brand guidelines as theme tokens
+- CSS custom properties for dynamic theming
+- Whitelabel/multi-tenant theme switching support
+- Dark mode implementation
+
+### Accessibility & UX
+- ARIA labels, keyboard navigation, WCAG AA compliance
+- Error boundaries, toast notifications, loading states
+
+### Security & Monitoring
+- Input sanitization, CSP headers, HTTPS enforcement
+- Error tracking (Sentry) and analytics
+- Regular security audits
+
+### Developer Experience
+- Pre-commit hooks (Husky)
+- Storybook for component documentation
+- Automated dependency updates
