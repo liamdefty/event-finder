@@ -32,6 +32,13 @@ npm install
 npm run dev
 ```
 
+## Running Tests
+
+```bash
+npm test        # Run tests in watch mode
+npm test -- --run   # Run tests once
+```
+
 ## Architecture
 
 ### Layer Separation
